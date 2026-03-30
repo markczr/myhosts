@@ -1,26 +1,3 @@
-# Copyright (c) 1993-2009 Microsoft Corp.
-#
-# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
-#
-# This file contains the mappings of IP addresses to host names. Each
-# entry should be kept on an individual line. The IP address should
-# be placed in the first column followed by the corresponding host name.
-# The IP address and the host name should be separated by at least one
-# space.
-#
-# Additionally, comments (such as these) may be inserted on individual
-# lines or following the machine name denoted by a '#' symbol.
-#
-# For example:
-#
-#      102.54.94.97     rhino.acme.com          # source server
-#       38.25.63.10     x.acme.com              # x client host
-
-# localhost name resolution is handled within DNS itself.
-#	127.0.0.1       localhost
-#	::1             localhost
-
-# BEGIN SOURCE: tmdb_ipv4
 18.160.10.85	tmdb.org
 3.170.19.19	api.tmdb.org
 3.170.42.125	files.tmdb.org
@@ -48,9 +25,6 @@
 172.67.74.146	fanart.tv
 104.20.13.80	api.trakt.tv
 104.20.14.80	trakt.tv
-# END SOURCE: tmdb_ipv4
-
-# fetch-github-hosts begin
 103.21.245.230               live.github.com
 185.199.111.154             github.githubassets.com
 185.199.110.133             desktop.githubusercontent.com
@@ -79,12 +53,6 @@
 185.199.111.133             media.githubusercontent.com
 185.199.109.133             cloud.githubusercontent.com
 185.199.110.133             objects.githubusercontent.com
-# last fetch time: 2026-02-21 07:46:21
-# update url: https://hosts.gitcdn.top/hosts.txt
-# fetch-github-hosts end
-
-
-## 这里是ipv4地址
 52.222.144.63	api.themoviedb.org
 52.222.144.21	api.themoviedb.org
 52.222.144.120	api.themoviedb.org
@@ -137,8 +105,6 @@
 45.79.77.189	btsow.pics
 45.79.103.224	btsow.pics
 45.79.103.229	btsow.pics
-
-## 这里是ipv6地址
 2600:9000:239f:fe00:10:fb02:4000:93a1	api.themoviedb.org
 2600:9000:239f:ae00:10:fb02:4000:93a1	api.themoviedb.org
 2600:9000:239f:4400:10:fb02:4000:93a1	api.themoviedb.org
@@ -172,8 +138,6 @@
 2606:4700:20::681a:50e	jav.guru
 2606:4700:20::681a:40e	jav.guru
 2606:4700:20::ac43:4b0b	jav.guru
-
-# GitHub Hosts Start
 185.199.108.153		github.io
 52.224.38.193		github.dev
 192.0.66.2		github.blog
@@ -182,7 +146,6 @@
 20.26.156.215		github.com
 140.82.114.26		alive.github.com
 20.26.156.210		api.github.com
-#		assets-cdn.github.com
 140.82.114.22		central.github.com
 140.82.113.10		codeload.github.com
 140.82.113.22		collector.github.com
@@ -214,9 +177,6 @@
 185.199.108.133		github.map.fastly.net
 151.101.161.194		github.global.ssl.fastly.net
 13.107.213.38		vscode.dev
-# GitHub Hosts End
-
-# Steam Hosts Start
 23.2.133.147		steam-chat.com
 23.11.10.111		steamcommunity.com
 23.2.133.147		www.steamcommunity.com
@@ -232,25 +192,12 @@
 23.216.5.6		community.akamai.steamstatic.com
 23.211.176.32		store.akamai.steamstatic.com
 23.54.76.12		steamcdn-a.akamaihd.net
-# Steam Hosts End
-
-# TMDB Hosts Start
 108.159.227.37		www.themoviedb.org
 3.170.103.16		api.themoviedb.org
 143.244.60.197		image.tmdb.org
 13.32.205.88		api.tmdb.org
-# TMDB Hosts End
-
-# Google_Translate Hosts Start
 142.251.183.95		translate.googleapis.com
 142.250.125.100		translate.google.com
-# Google_Translate Hosts End
-
-# wallhaven Hosts Start
 104.26.10.35		wallhaven.cc
 104.26.11.35		th.wallhaven.cc
-# wallhaven Hosts End
 
-# Update Time: 2026-02-20 22:02:56 (UTC+8)
-# Update URL: https://raw.githubusercontent.com/oopsunix/hosts/main/hosts
-127.0.0.1      avbook.test          #laragon magic!   
