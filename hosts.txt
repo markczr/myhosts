@@ -200,4 +200,5 @@
 142.250.125.100		translate.google.com
 104.26.10.35		wallhaven.cc
 104.26.11.35		th.wallhaven.cc
-
+172.67.215.160		69yun69.com
+104.21.91.107		69yun69.com
